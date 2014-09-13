@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Marie's CSS */
+
+/** { outline: 1px solid black; }*/
+
+body {
+	background: #faf0ed;
+}
+
+#nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right:70px;
+	min-width: 950px;
+	background: white;
+	z-index: 3;
+}
+
+#logo-small {
+	float: left;
+	margin-left: 70px;
+	padding-top: 3px;
+}
+
+#nav-elements {
+	padding-top: 15px;
+	float: right;
+	text-align: right;
+}
+
+#nav-elements li {
+	display: inline;
+	padding-right: 25px;
+}
+
+#austin {
+	width: 100%;
+	min-width: 1250px;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 125px;
+	font-weight: 700;
+	color: black;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 75px;
+	font-weight: 400;
+	color: black;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 53px;
+	font-weight: 700;
+	display: inline;
+	color: white;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	color: black;
+}
+
+li {
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: #000033;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #4456da;
+}
+
+textarea {
+	width: 300px;
+	height: 50px;
+	padding: 0.8em 0.4em;
+	margin: 0.8em auto 0.2em;
+	color: black;
+	border: solid 1px black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+textarea:focus {
+	outline:none;
+}
+
+#main-area {
+	clear: both;
+	min-width: 1250px;
+}
+
+#center-text {
+	position: fixed;
+	left: 70px;
+	top: 85%;
+	z-index: 2;
+}
+
+#center-text li {
+	color: white;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.ss-form-desc {
+	margin-left: 210px;
+	margin-top: 200px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color: black;
+}
+
+form {
+	margin-left: 210px;
+	margin-top: 200px;
+}
+
+.info-area {
+	margin-left: 210px;
+	margin-top: 200px;
+}
+
+.info-area li {
+	line-height: 150%;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.info-area a {
+	color: black;
+}
+
+.info-area a:hover {
+	text-decoration: none;
+	color: #0808fe;
+}
+
+#sched-width {
+	padding-right: 100px;
+}
+
+.ss-form-question {
+	padding-top: 20px;
+}
+
+#name {
+	height: 120px;
+	padding-bottom: 15px;
+}
+
+input {
+	margin-top: 10px;
+	border-color: black;
+	border-width: 1px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.ss-choice-item {
+	height: 30px;
+}
+
+.ss-q-item-label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	color: black;
+}
+
+.ss-choice-label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+	font-weight: 200;
+	color: black;
+}
+
+.ss-secondary-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-weight: 200;
+	color: black;
+	margin-top: 5px;
+}
+
+.ss-q-short {
+	height: 30px;
+	width: 100px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+#ss-submit {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+	background: #000033;
+	border: none;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 200px;
+	height: 30px;
+}
+
+#ss-submit:hover {
+	background: #4456da;
+}
+
+.spacer {
+	height: 25px;
+}
